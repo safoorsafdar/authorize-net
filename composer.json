@@ -1,0 +1,43 @@
+{
+  "name": "safoorsafdar/authorize-net",
+  "version": "dev-master",
+  "minimum-stability": "dev",
+  "type": "library",
+  "description": "The Payum extension. It provides Authorize.Net payment integration.",
+  "keywords": [
+    "payment",
+    "authorize.net",
+    "authorizenet"
+  ],
+  "homepage": "http://payum.org",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "safoor safdar",
+      "email": "safoor.safdar@gmail.com"
+    }
+  ],
+  "require": {
+    "payum/core": "~1.0",
+    "authorizenet/authorizenet": "~1.8"
+  },
+  "require-dev": {
+    "payum/core": "~1.0@dev",
+    "phpunit/phpunit": "~4.0",
+    "symfony/phpunit-bridge": "~2.8|~3.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-0": {
+      "SafoorSafdar\\AuthorizeNet": ""
+    }
+  },
+  "target-dir": "SafoorSafdar/AuthorizeNet",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  }
+}
